@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{4a32c392-5ed8-433e-b49d-ac6a19ae7068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9da2c017-2c4c-47f7-a8a9-075c42127e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Graphs">
+      <UniqueIdentifier>{f15fe8a6-1a27-4f99-9cae-e7fbcdc72c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Misc">
+      <UniqueIdentifier>{d213e461-932f-429f-ab21-3bc75125d0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Misc\Registry">
+      <UniqueIdentifier>{c1352adc-29cd-4b73-b96b-4d62740df950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Misc\Crypto">
+      <UniqueIdentifier>{b9e78119-738b-4b6f-8046-b49d39c583ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Misc\Img">
+      <UniqueIdentifier>{c1c63183-9a33-4107-9268-3fa5cd5e93a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Settings">
+      <UniqueIdentifier>{677d0a1f-876f-4238-b180-0f6239ac91fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SystemLog">
+      <UniqueIdentifier>{7875edfe-4441-48c4-b4e9-f665da9227ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Scheduler">
+      <UniqueIdentifier>{caaab722-fb72-477b-b424-620bba229e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Misc\Devices">
+      <UniqueIdentifier>{2eda68d0-fa9a-4e45-8a72-a034921772fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Settings\Validator">
+      <UniqueIdentifier>{4bf45d14-f67b-4385-b6e7-7da3d4d57992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Misc\Logging">
+      <UniqueIdentifier>{59fbf6ec-2c17-4640-8888-201bbf806362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Misc\Unittest">
+      <UniqueIdentifier>{b75c007f-5393-47bb-9b46-46814330f82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Settings\Managers">
+      <UniqueIdentifier>{04852ac6-fbc7-46a5-9bd8-8e500c67b9ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseWinCaptureGraph.cpp">
+      <Filter>Core\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAudioVideoCaptureGraph.cpp">
+      <Filter>Core\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRegistryClient.cpp">
+      <Filter>Core\Misc\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="GOST.cpp">
+      <Filter>Core\Misc\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="WinPhotoCaptureGraph.cpp">
+      <Filter>Core\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="AVController.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>Core\Misc\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Core\Misc\Img</Filter>
+    </ClCompile>
+    <ClCompile Include="AVCaptureService.cpp" />
+    <ClCompile Include="EventLogger.cpp">
+      <Filter>Core\SystemLog</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Core\Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceEnumerator.cpp">
+      <Filter>Core\Misc\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="WinOnlineCaptureGraph.cpp">
+      <Filter>Core\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors.cpp">
+      <Filter>Core\Misc\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Core\Misc\Unittest</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsValidator.cpp">
+      <Filter>Core\Settings\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistrySettingsManager.cpp">
+      <Filter>Core\Settings\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSettingsManager.cpp">
+      <Filter>Core\Settings\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PreCompiled.cpp">
+      <Filter>Headers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseWinCaptureGraph.h">
+      <Filter>Core\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCaptureGraph.h">
+      <Filter>Core\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAudioVideoCaptureGraph.h">
+      <Filter>Core\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="WinRegistryClient.h">
+      <Filter>Core\Misc\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="WinRegistryConstants.h">
+      <Filter>Core\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Cipher.h">
+      <Filter>Core\Misc\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="GOST.h">
+      <Filter>Core\Misc\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="WinPhotoCaptureGraph.h">
+      <Filter>Core\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="WinRecordInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHeaders.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AVController.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Core\Misc\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="PreCompiled.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Core\Misc\Img</Filter>
+    </ClInclude>
+    <ClInclude Include="EventLogger.h">
+      <Filter>Core\SystemLog</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemLog.h">
+      <Filter>Core\SystemLog</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Core\Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceEnumerator.h">
+      <Filter>Core\Misc\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonSettings.h">
+      <Filter>Core\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceSettings.h">
+      <Filter>Core\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="WinOnlineCaptureGraph.h">
+      <Filter>Core\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Core\Misc\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Core\Misc\Unittest</Filter>
+    </ClInclude>
+    <ClInclude Include="Json.hpp">
+      <Filter>Core\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsValidator.h">
+      <Filter>Core\Settings\Validator</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseSettingsManager.h">
+      <Filter>Core\Settings\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistrySettingsManager.h">
+      <Filter>Core\Settings\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonSettingsManager.h">
+      <Filter>Core\Settings\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
